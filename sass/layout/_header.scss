@@ -113,10 +113,16 @@
     font-size: 14px;
     text-decoration: none;
     color: var(--contacts-text-color);
-
     padding-top: 32px;
     padding-bottom: 32px;
     transition: fill var(--transition-func);
+    display: flex;
+    align-items: center;
+    
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .contact__mail,
@@ -124,14 +130,10 @@
     margin-right: 50px;
 }
 
-
 .contact__number:hover .contact__icon-phone,
 .contact__number:focus .contact__icon-phone {
     fill: var(--accent-color);
 }
-
-
-
 .contact__mail:hover .contact__icon-mail,
 .contact__mail:focus .contact__icon-mail {
     fill: var(--accent-color);
@@ -139,12 +141,6 @@
 .header-page {
     border-bottom: 1px solid #ECECEC;
 }
-.contact__mail,
-.contact__number {
-    display: flex;
-    align-items: center;
-}
-
 .contact__icon-mail,
 .contact__icon-phone {
     fill: var(--contacts-text-color);
@@ -153,6 +149,4 @@
     margin-right: 10px;
     transition: fill var(--transition-func);
 }
-
-
 

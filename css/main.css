@@ -170,6 +170,13 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   transition: fill var(--transition-func);
+  display: flex;
+  align-items: center;
+}
+.contact__mail:hover, .contact__mail:focus,
+.contact__number:hover,
+.contact__number:focus {
+  color: var(--accent-color);
 }
 
 .contact__mail,
@@ -189,12 +196,6 @@ body {
 
 .header-page {
   border-bottom: 1px solid #ECECEC;
-}
-
-.contact__mail,
-.contact__number {
-  display: flex;
-  align-items: center;
 }
 
 .contact__icon-mail,
