@@ -41,9 +41,10 @@
     padding: 10px 32px;
     cursor: pointer;
     transition: background-color var(--transition-func);
+    
+    &:hover,
+    &:focus {
+            background-color: var(--accent-color);
+        }
 }
 
-.order-button:hover,
-.order-button:focus {
-    background-color: var(--accent-color);
-}

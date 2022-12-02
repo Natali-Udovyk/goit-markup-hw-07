@@ -41,11 +41,11 @@
     text-decoration: none;
     font-style: normal;
     transition: color var(--transition-func);
-}
 
-.adress-link:hover,
-.adress-link:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .footer-item__mail,
@@ -57,12 +57,11 @@
     color: var(--contacts-text-color);
     font-style: normal;
     transition: color var(--transition-func);
-}
 
-.footer-item__mail:hover,
-.footer-item__mail:focus {
-    color: var(--accent-color);
-
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .footer-item__number:hover,
@@ -102,23 +101,22 @@
     align-items: center;
     justify-content: center;
     transition: background-color var(--transition-func);
-}
 
-.social-sets__links:not(:last-child) {
-    margin-right: 10px;
-}
-
-.social-sets__links:hover,
-.social-sets__links:focus {
-    background-color: var(--accent-color);
+    &:not(:last-child) {
+            margin-right: 10px;
+        }
+        &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+        }
 }
 
 .social-set__icon {
     fill: var(--main-background-color);
     transition: fill var(--transition-func);
-}
 
-.social-set__icon:hover,
-.social-set__icon:focus {
-    fill: var(--main-background-color);
+    &:hover,
+    &:focus {
+            fill: var(--main-background-color);
+        }
 }
